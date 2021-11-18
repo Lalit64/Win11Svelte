@@ -13,17 +13,17 @@
 		<div class='w-full h-full'>
 
 		</div>
-		<div class='w-1/2 text-7xl flex flex-col items-center justify-between pt-40 p-5'
+		<div class='w-1/2 text-8xl flex flex-col items-center justify-between pt-40 p-5'
 				 transition:fly='{{ y: -200, duration: 1000 }}'>
 			<div class='flex flex-col items-center'>
 				<p>
 					3:15
 				</p>
-				<p class='text-4xl font-normal mt-4'>
+				<p class='text-3xl font-normal mt-4'>
 					Tuesday, September 14
 				</p>
 			</div>
-			<div class='font-medium text-xl flex flex-col items-center'>
+			<div class='font-medium text-sm flex flex-col items-center'>
 				<div class='mb-2'>
 					Academic Power Hour
 				</div>
