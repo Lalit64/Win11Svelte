@@ -13,13 +13,13 @@
 		<div class='w-full h-full'>
 
 		</div>
-		<div class='w-1/2 text-8xl flex flex-col items-center justify-between pt-40 p-5'
+		<div class='time-container w-1/2 flex flex-col items-center justify-between pt-40 p-5'
 				 transition:fly='{{ y: -200, duration: 1000 }}'>
 			<div class='flex flex-col items-center'>
 				<p>
 					3:15
 				</p>
-				<p class='text-3xl font-normal mt-4'>
+				<p class='text-2xl font-normal mt-2'>
 					Tuesday, September 14
 				</p>
 			</div>
@@ -57,4 +57,8 @@
     button {
         filter: invert(100%);
     }
+
+		.time-container {
+				font-size: 6.3rem;
+		}
 </style>
