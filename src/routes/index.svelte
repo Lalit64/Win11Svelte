@@ -1,20 +1,23 @@
 <script>
 	import Lock from '$lib/components/Lock/Lock.svelte';
+	import Main from '$lib/components/Main/Main.svelte';
+	import { fade } from 'svelte/transition';
 
 	let isLockedTimeShown = true;
+	let isLockShown = true;
 
-	function handleUpClick(e) {
+	function handleKeyboard(e) {
 		let keyCode = e.keyCode;
-		if (keyCode === 38) {
-			isLockedTimeShown = false;
-		}
+		isLockedTimeShown = false;
 		if (keyCode === 40) {
 			isLockedTimeShown = true;
 		}
-  }
+	}
 
 </script>
 
-<svelte:window on:keydown={handleUpClick}/>
+<svelte:window on:keydown={handleKeyboard} />
 
-<Lock {isLockedTimeShown} />
+<Lock {isLockedTimeShown} bind:isLockShown />
+
+

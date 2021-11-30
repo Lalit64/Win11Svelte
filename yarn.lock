@@ -45,6 +45,11 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
+"@fluentui/svg-icons@^1.1.150":
+  version "1.1.150"
+  resolved "https://registry.yarnpkg.com/@fluentui/svg-icons/-/svg-icons-1.1.150.tgz#ff12a148134b524def7f13be86128d6591a55e10"
+  integrity sha512-3XHAuKP1800qR26Fs3GzN6X4XtacgcT3yt5ogYZvWbhUfMadauoniTUooDbtkhKvKqBKB6a526PfsVaK6G6N0g==
+
 "@humanwhocodes/config-array@^0.5.0":
   version "0.5.0"
   resolved "https://registry.yarnpkg.com/@humanwhocodes/config-array/-/config-array-0.5.0.tgz#1407967d4c6eecd7388f83acf1eaf4d0c6e58ef9"
